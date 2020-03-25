@@ -1,0 +1,16 @@
+{
+	"auth": {
+		"ACCESS_KEY": "123456",
+		"SECRET_KEY": "234567"
+	},
+	"tests": [
+		{
+			"category": "static analysis",
+			"policy": {
+				"action": "alert",
+				"options": {}
+			},
+			"name": "appinspector"
+		}
+	]
+}
