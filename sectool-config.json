@@ -1,0 +1,17 @@
+{
+	"auth": {
+		"ACCESS_KEY": "123456",
+		"SECRET_KEY": "234567"
+	},
+	"tests": [{
+			"category": "stored_secret",
+			"policy": {
+				"action": "alert",
+				"options": {
+					"entropy_checks": "off"
+				}
+			},
+			"name": "detect-secrets"
+		}
+	]
+}
