@@ -1,5 +1,8 @@
-- name: Perform ShiftLeft Scan
-  uses: ShiftLeftSecurity/scan-action@master
-  env:
-    WORKSPACE: https://github.com/${{ github.repository }}/blob/${{ github.sha }}
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+name: Lint Awesome List
+on: [push, pull_request]
+jobs:
+  scan:
+    name: Perform ShiftLeft Scan
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: ShiftLeftSecurity/scan-action@master
