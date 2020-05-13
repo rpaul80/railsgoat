@@ -1,5 +1,0 @@
-- name: Perform ShiftLeft Scan
-  uses: ShiftLeftSecurity/scan-action@master
-  env:
-    WORKSPACE: https://github.com/${{ github.repository }}/blob/${{ github.sha }}
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
