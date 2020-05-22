@@ -8,7 +8,7 @@
 			"policy": {
 				"action": "alert",
 				"options": {
-					"entropy_checks": "off",
+					"entropy_checks": "on",
 					"basic_auth": "on",
 					"keyword": "on",
 					"mailchimp": "on",
