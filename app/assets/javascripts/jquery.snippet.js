@@ -7,6 +7,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  *
  * Date: Wed Jan 19, 2011
+* Testing should trigger
  */
 
 (function($) {
