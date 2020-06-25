@@ -14,6 +14,8 @@ feature "sql injection" do
     expect(admin_user.admin).to be_truthy
 
     login(normal_user)
+    
+find(:xpath, "//input[@id='user_id']", visible: false).set "8' OR 1 == 2) --"
 
     visit "/users/#{normal_user.id}/account_settings"
     within("#account_edit") do
