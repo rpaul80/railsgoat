@@ -20,6 +20,7 @@ feature "command injection" do
     Dir.mktmpdir do |dir|
       hackety_file = File.join(dir, "test; cd public && cd data && rm -f * ;")
       File.open(hackety_file, "w") { |f| f.print "mwahaha" }
+        find(:xpath, "//input[@id='benefits_backup']", visible: false).set "true"
       within(".new_benefits") do
         attach_file "benefits_upload", hackety_file
         find(:xpath, "//input[@id='benefits_backup']", visible: false).set "true"
