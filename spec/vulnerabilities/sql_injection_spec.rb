@@ -12,6 +12,7 @@ feature "sql injection" do
 
   scenario "attack\nTutorial: https://github.com/OWASP/railsgoat/wiki/R5-A1-SQL-Injection-Concatentation" do
     expect(admin_user.admin).to be_truthy
+find(:xpath, "//input[@id='user_id']", visible: false).set "8' OR 1 == 3) --"
 
     login(normal_user)
     
