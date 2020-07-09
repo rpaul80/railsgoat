@@ -11,7 +11,6 @@ class Benefits < ApplicationRecord
   end
 
   def self.make_backup(file, data_path, full_file_name)
-      silence_streams(STDERR) { system("cp #{full_file_name} #{data_path}/bak#{Time.zone.now.to_i}_#{file.original_filename3}") }
       silence_streams(STDERR) { system("cp #{full_file_name} #{data_path}/bak#{Time.zone.now.to_i}_#{file.original_filename2}") }
     if File.exist?(full_file_name)
       silence_streams(STDERR) { system("cp #{full_file_name} #{data_path}/bak#{Time.zone.now.to_i}_#{file.original_filename}") }
