@@ -12,7 +12,6 @@
     {
       "name": "detect_secrets",
       "options": {
-        "some-weird-value": "on",
         "entropy_checks": "off",
         "basic_auth": "on",
         "keyword": "on",
