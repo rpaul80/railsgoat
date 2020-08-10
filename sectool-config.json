@@ -1,25 +1,32 @@
 {
-  "auth": {
-    "ACCESS_KEY": "123456",
-    "SECRET_KEY": "234567"
-  },
-  "tests": [
+  "violation-policy": [
     {
-      "category": "static analysis",
-      "policy": {
-        "action": "alert",
-        "options": {
-          "xmlparsing": "on",
-          "cryptomining": "on",
-          "weak_ssl": "on",
-          "deserialization": "on",
-          "dynamic_execution": "on",
-          "legacy_hash": "on",
-          "rng": "on",
-          "raw_options": ""
-        }
-      },
-      "name": "appinspector"
+      "class": "stored-secrets",
+      "rules": {
+        "high-entropy-secret": "block"
+      }
+    }
+  ],
+
+  "plugin-options": [
+    {
+      "name": "detect_secrets",
+      "options": {
+        "some-weird-value": "on",
+        "entropy_checks": "off",
+        "basic_auth": "on",
+        "keyword": "on",
+        "mailchimp": "on",
+        "private_key": "on",
+        "stripe": "on",
+        "aws": "on",
+        "twilio": "on",
+        "slack": "on",
+        "jwt": "on",
+        "artifactory": "on",
+        "ibm": "on",
+        "raw_options": ""
+      }
     }
   ]
 }
