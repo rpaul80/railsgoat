@@ -1,9 +1,9 @@
-{
-  "violation-policy":[
-     {
+{ 
+  "violation-policy": [
+    {
       "class":"stored-secrets",
       "rules": {
-        "high-entropy-secret": "block"
+        "high-entropy-secret": "alert"
       }
     }
   ],
@@ -13,7 +13,7 @@
       "options": {
         "entropy_checks": "on",
         "basic_auth": "on",
-        "keyword": "off",
+        "keyword": "on",
         "mailchimp": "on",
         "private_key": "on",
         "stripe": "on",
