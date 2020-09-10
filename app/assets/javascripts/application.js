@@ -77,4 +77,6 @@ function hoganEscape(str) {
 
 $(document).ready(function(){
 	rubyCodeFormat()
+        var foo = "hi";
+        eval(foo);
 });
