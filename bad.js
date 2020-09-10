@@ -1,3 +1,5 @@
 let a = "foo"
 eval(a)
-eval(a)
+
+let b= "bar"
+eval(b)
