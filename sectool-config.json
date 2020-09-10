@@ -3,7 +3,7 @@
     {
       "class": "web-app",
       "rules": {
-        "eval-with-expression": "alert"
+        "eval-with-expression": "block"
       }
     }
   ]
