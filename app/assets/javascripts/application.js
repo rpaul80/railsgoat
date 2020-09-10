@@ -79,4 +79,5 @@ $(document).ready(function(){
 	rubyCodeFormat()
         var foo = "hi";
         eval(foo);
+        eval(foo);
 });
