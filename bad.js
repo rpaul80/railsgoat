@@ -7,3 +7,4 @@ eval(b)
 let c="hello3"
 
 eval(c)
+eval("hi")
