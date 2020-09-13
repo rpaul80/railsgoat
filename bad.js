@@ -8,3 +8,6 @@ let c="hello3"
 
 eval(c)
 eval("hi")
+
+let d = "omg"
+eval(d)
