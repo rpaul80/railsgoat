@@ -40,3 +40,4 @@ let m = "k"
 eval(m)
 
 eval(i + "hi")
+eval(i + "hi2")
