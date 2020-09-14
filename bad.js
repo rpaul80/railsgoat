@@ -20,3 +20,6 @@ eval(f)
 
 let g = "omg"
 eval("g")
+
+let h = "omg"
+eval(h)
