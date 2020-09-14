@@ -1,13 +1,13 @@
-let a = "foo";
-eval(a);
+let a = "foo"
+eval(a)
 
-let b = "hello";
-eval(b);
+let b = "hello"
+eval(b)
 
-let c = "hello3";
+let c = "hello3"
 
-eval(c);
-eval("hi");
+eval(c)
+eval("hi")
 
-let d = "omg";
-eval("d");
+let d = "omg"
+eval("d")
