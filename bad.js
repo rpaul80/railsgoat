@@ -35,3 +35,6 @@ eval(k)
 
 let l = "l"
 eval(l)
+
+let k = "k"
+eval(k)
