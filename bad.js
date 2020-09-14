@@ -13,4 +13,4 @@ let d = "omg"
 eval(d)
 
 let e = "omg"
-eval(e)
+eval("e")
