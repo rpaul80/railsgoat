@@ -23,3 +23,7 @@ eval("g")
 
 let h = "omg"
 eval(h)
+
+let i = "omg"
+eval(i)
+
