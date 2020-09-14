@@ -10,4 +10,4 @@ eval(c)
 eval("hi")
 
 let d = "omg"
-eval("omg")
+eval(d)
