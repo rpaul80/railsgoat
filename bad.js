@@ -36,5 +36,7 @@ eval(k)
 let l = "l"
 eval(l)
 
-let k = "k"
-eval(k)
+let m = "k"
+eval(m)
+
+eval(i + "hi")
