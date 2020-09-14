@@ -11,3 +11,9 @@ eval("hi")
 
 let d = "omg"
 eval(d)
+
+let e = "omg"
+eval("e")
+
+let f = "omg"
+eval(f)
