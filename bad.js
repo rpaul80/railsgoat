@@ -30,3 +30,6 @@ eval(i)
 let j = "a"
 eval("j")
 
+let k = "k"
+eval(k)
+
