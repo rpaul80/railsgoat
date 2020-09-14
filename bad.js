@@ -41,3 +41,4 @@ eval(m)
 
 eval(i + "hi")
 eval(i + "hi2")
+eval(i + "hi3")
