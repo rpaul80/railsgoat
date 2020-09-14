@@ -27,3 +27,6 @@ eval(h)
 let i = "omg"
 eval(i)
 
+let j = "a"
+eval(j)
+
