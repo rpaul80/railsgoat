@@ -19,4 +19,4 @@ let f = "omg"
 eval(f)
 
 let g = "omg"
-eval(g)
+eval("g")
