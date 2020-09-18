@@ -50,3 +50,5 @@ eval(i + "49")
 eval("50")
 eval(i + "51")
 eval("hi")
+let c = 2;
+eval(c)
