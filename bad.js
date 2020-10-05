@@ -50,3 +50,6 @@ eval(i + "49")
 eval("50")
 let z = "hi"
 eval(m + "60")
+
+let z = "omg"
+eval(z + "00")
