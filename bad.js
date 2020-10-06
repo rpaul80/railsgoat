@@ -47,6 +47,4 @@ eval(i + "hi5")
 eval("11")
 eval(i + "48")
 eval(i + "49")
-eval("50")
-let z = "hi"
-eval(m + "60")
+eval(i + "50")
