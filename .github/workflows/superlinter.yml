@@ -27,5 +27,6 @@ jobs:
       # Run Brakeman
       - name: Brakeman linter
         uses: devmasx/brakeman-linter-action@v1.0.0
-        DEFAULT_BRANCH: master
+        env:
+          DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
