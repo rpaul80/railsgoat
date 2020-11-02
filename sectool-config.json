@@ -1,0 +1,10 @@
+{
+  "violation-policy": [
+    {
+      "class": "web-app",
+      "rules": {
+        "cookie-secure-flag-not-set": "alert"
+      }
+    }
+  ]
+}
