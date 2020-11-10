@@ -1,3 +1,5 @@
+assert.equal(value.toString(), 'http://foo:bAr@localhost:8080/far');
+
 let a = "foo"
 eval(a)
 
