@@ -41,12 +41,6 @@ eval(l)
 let m = "k"
 eval(m)
 
-eval(i + "hi")
-eval(i + "hi2")
-eval(i + "hi3")
-eval("hi4")
-eval(i + "hi5")
-eval("11")
 eval(i + "48")
 eval(i + "49")
 eval(i + "50")
