@@ -4,4 +4,8 @@ hash = Digest::MD5.hexdigest(three)
 hash = Digest::MD5.hexdigest(four)
 
 puts "hi"
-hash = Digest::MD5.hexdigest(five)
+hash = Digest::MD5.hexdigest(five) # noboost
+
+hash = Digest::MD5.hexdigest(six)
+hash = Digest::MD5.hexdigest(seven)
+
