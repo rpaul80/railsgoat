@@ -4,3 +4,4 @@ hash = Digest::MD5.hexdigest(three)
 hash = Digest::MD5.hexdigest(four)
 
 puts "hi"
+hash = Digest::MD5.hexdigest(five)
