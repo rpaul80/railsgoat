@@ -6,6 +6,7 @@ var e = 1;
 var f = 2;
 var g = 3;
 var l = 4;
+var m = 6;
 eval(a)
 eval(b)
 eval(c)
@@ -14,3 +15,4 @@ eval(e)
 eval(f)
 eval(g)
 eval(l)
+eval(m)
