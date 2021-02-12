@@ -8,6 +8,7 @@ var g = 3;
 var l = 4;
 var m = 6;
 var n = 7;
+var o = 8;
 eval(a)
 eval(b)
 eval(c)
@@ -18,3 +19,4 @@ eval(g)
 eval(l)
 eval(m)
 eval(n)
+eval(o)
