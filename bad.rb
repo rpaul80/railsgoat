@@ -11,6 +11,7 @@ hash = Digest::MD5.hexdigest(seven)
 hash = Digest::MD5.hexdigest(8t)
 hash = Digest::MD5.hexdigest("foooo")
 hash = Digest::MD5.hexdigest("roooo")
+hash = Digest::MD5.hexdigest("sroooo")
 
 
 
