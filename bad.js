@@ -11,6 +11,7 @@ var n = 7;
 var o = 8;
 var p = 9;
 var q = 10;
+var r = 10;
 eval(a)
 eval(b)
 eval(c)
@@ -24,3 +25,4 @@ eval(n)
 eval(o)
 eval(p)
 eval(q)
+eval(r)
