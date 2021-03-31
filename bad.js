@@ -28,3 +28,6 @@ eval(p)
 eval(q)
 eval(r)
 eval(s)
+
+let  t= 11;
+eval(t)
