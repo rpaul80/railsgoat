@@ -31,3 +31,6 @@ eval(s)
 
 let  t= 11;
 eval(t)
+
+let  u= 12;
+eval(u)
