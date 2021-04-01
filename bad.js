@@ -37,3 +37,6 @@ eval(u)
 
 let v = 12
 eval(v)
+
+let vv = 13
+eval(vv)
