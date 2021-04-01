@@ -34,3 +34,6 @@ eval(t)
 
 let  u= 12;
 eval(u)
+
+let v = 12
+eval(v)
