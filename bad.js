@@ -40,3 +40,6 @@ eval(v)
 
 let vv = 13
 eval(vv)
+
+let xxx = 13
+eval(xxx)
