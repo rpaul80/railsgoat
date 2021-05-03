@@ -49,9 +49,9 @@ class PasswordResetsController < ApplicationController
     "#{id}-#{hash}"
   end
 
-  def generate_token_2(id, email)
-    hash = Digest::MD5.hexdigest(email)
-    "#{id}-#{hash}"
+  def generate_token_2(id2, email2)
+    hash = Digest::MD5.hexdigest(email2)
+    "#{id2}-#{hash}"
   end
 
   def is_valid?(token)
