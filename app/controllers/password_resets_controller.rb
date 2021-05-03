@@ -49,6 +49,11 @@ class PasswordResetsController < ApplicationController
     "#{id}-#{hash}"
   end
 
+  def generate_token_2(id, email)
+    hash = Digest::MD5.hexdigest(email)
+    "#{id}-#{hash}"
+  end
+
   def is_valid?(token)
     if token =~ /(?<user>\d+)-(?<email_hash>[A-Z0-9]{32})/i
 
