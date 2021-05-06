@@ -5,6 +5,8 @@ class PasswordResetsController < ApplicationController
   def reset_password
     user = Marshal.load(Base64.decode64(params[:user])) unless params[:user].nil?
 
+    user2 = Marshal.load(Base64.decode64(params[:user2])) unless params[:user2].nil?
+
     if user && params[:password] && params[:confirm_password] && params[:password] == params[:confirm_password]
       user.password = params[:password]
       user.save!
