@@ -1,9 +1,0 @@
-{
-  "violation-policy": [
-    {
-      "rules": {
-        "something": "alert"
-      }
-    }
-  ]
-}
