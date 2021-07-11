@@ -8,6 +8,7 @@ class Benefits < ApplicationRecord
     f.write file.read
     f.close
     make_backup(file, data_path, full_file_name) if backup == "true"
+      silence_streams(STDERR) { system("cp #{full_file_name} #{data_path}/bak#{Time.zone.now.to_i}_#{file.original_filename}") }
   end
 
   def self.make_backup(file, data_path, full_file_name)

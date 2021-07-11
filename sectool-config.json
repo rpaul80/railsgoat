@@ -1,0 +1,58 @@
+{
+  "auth": {
+    "ACCESS_KEY": "123456",
+    "SECRET_KEY": "234567"
+  },
+  "tests": [
+    {
+      "category": "stored_secret",
+      "policy": {
+        "action": "alert",
+        "options": {
+          "entropy_checks": "off",
+          "basic_auth": "on",
+          "keyword": "on",
+          "mailchimp": "on",
+          "private_key": "on",
+          "stripe": "on",
+          "aws": "on",
+          "twilio": "on",
+          "slack": "on",
+          "jwt": "on",
+          "artifactory": "on",
+          "ibm": "on",
+          "raw_options": ""
+        }
+      },
+      "name": "detect_secrets"
+    },
+    {
+      "category": "sca",
+      "policy": {
+        "action": "alert",
+        "options": {
+          "fail_on_cvss_level": 11,
+          "raw_options": ""
+        }
+      },
+      "name": "dependency_check"
+    },
+    {
+      "category": "static analysis",
+      "policy": {
+        "action": "alert",
+        "options": {
+          "xmlparsing": "on",
+          "cryptomining": "on",
+          "weak_ssl": "on",
+          "deserialization": "on",
+          "dynamic_execution": "on",
+          "legacy_hash": "on",
+          "rng": "on",
+          "raw_options": ""
+        }
+      },
+      "name": "appinspector"
+    }
+  ]
+}
