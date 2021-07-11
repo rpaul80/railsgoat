@@ -1,0 +1,31 @@
+{
+  "violation-policy": [
+    {
+      "class": "stored-secrets",
+      "rules": {
+        "high-entropy-secret": "alert"
+      }
+    }
+  ],
+
+  "plugin-options": [
+    {
+      "name": "detect_secrets",
+      "options": {
+        "entropy_checks": "off",
+        "basic_auth": "on",
+        "keyword": "on",
+        "mailchimp": "on",
+        "private_key": "on",
+        "stripe": "on",
+        "aws": "on",
+        "twilio": "on",
+        "slack": "on",
+        "jwt": "on",
+        "artifactory": "on",
+        "ibm": "on",
+        "raw_options": ""
+      }
+    }
+  ]
+}
