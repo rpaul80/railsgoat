@@ -47,6 +47,7 @@ $ rails db:setup
 Start the Thin web server:
 
 ```bash
+
 $ rails server
 ```
 
