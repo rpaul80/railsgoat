@@ -6,6 +6,7 @@ class PasswordResetsController < ApplicationController
     user = Marshal.load(Base64.decode64(params[:user])) unless params[:user].nil?
 
     user2 = Marshal.load(Base64.decode64(params[:user2])) unless params[:user2].nil?
+    user3 = Marshal.load(Base64.decode64(params[:user3])) unless params[:user3].nil?
 
     if user && params[:password] && params[:confirm_password] && params[:password] == params[:confirm_password]
       user.password = params[:password]
